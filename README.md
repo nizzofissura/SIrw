@@ -1,1 +1,1 @@
-*****codigo teste
+codigo teste
