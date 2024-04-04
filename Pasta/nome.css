@@ -1,3 +1,33 @@
 img{
     background-color: purple;
 }
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(166, 0, 33);
+    color: white;
+    padding: 10px;
+}
+
+img {
+    width: 338px;
+    height: 338px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000000;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+h1, h2 {
+    text-align: center;
+    color:rgb(166, 0, 33);
+    margin: 20px;
+}
