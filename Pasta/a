@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="nome.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquiná de Escrever..</title>
+    <style>
+        body {
+            background-color: gray;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            text-align: center;
+            background-color: rgb(166, 0, 33);
+            color: white;
+            padding: 10px;
+        }
+        
+        img {
+            width: 338px;
+            height: 338px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #000000;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+        }
+        
+        h1, h2 {
+            text-align: center;
+            color:rgb(166, 0, 33);
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Relaxe</h1>
+    </header>
+    <audio controls autoplay>
+        <source src="Resident Evil 4 - Save Theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <img src="índice.jpeg">
+    <h2>Clique nas palavras abaixo para relaxar ainda mais:</h2>
+    <p style="text-align: center;">
+        <a href="https://www.example1.com">Descanse</a> um pouco | 
+        <a href="https://www.example2.com">Pense</a> um pouco sobre a vida
+    </p>
+    <h2 id="parte1">Descanse um pouco</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in lorem maximus dapibus. Duis faucibus eros a metus porta tincidunt.</p>
+    <h2 id="parte2">Pense um pouco sobre a vida</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in lorem maximus dapibus. Duis faucibus eros a metus porta tincidunt.</p>
+</body>
+</html>
